@@ -22,7 +22,7 @@
 
 .baixo {
     width:100vw;
-    height:3000px;
+    height:650px;
 }
 
 .final {
@@ -59,9 +59,34 @@
     justify-content:space-between;
 }
 
+
+.meio2 {
+    float:right;
+    width:45vw;
+    height:600px;
+    font-size:5vw;
+    margin-right:-5px;
+    z-index:10000;
+    margin-top:20px;
+}
+
+.meio3 {
+    float:left;
+    width:50vw;
+    height:600px;
+    font-size:5vw;
+    margin-left:15px;
+    z-index:10000;
+    margin-top:20px;
+}
+
+
+
+
+
 .t {
     width:100vw;
-    height:2px;
+    height:3px;
     background-color:#c7c7c7;
     clear:both;
 }
@@ -137,8 +162,9 @@ input {
     align-items:center;
     background-color:#b8b8b8;
     z-index:10000000;
-    width:40vw;
-    height:160px;
+    width:35vw;
+    height:163px;
+    
     
 }
 
@@ -150,6 +176,7 @@ input {
     height:350px;
     background-color:#b8b8b8;
     z-index:100000;
+    border:3px black solid;
     
     
 }
